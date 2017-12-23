@@ -8,13 +8,23 @@
 </head>
 <body>
 <header>
-
+    <div class="container">
+        <h1>todo list</h1>
+    </div>
 </header>
-
-<footer>
-
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<section class="todo-list">
+    <div class="container">
+        <h2>list of tasks:</h2>
+        <div class="task-list">
+            <div class="input-task">
+                <input type="text" id="task-name" placeholder="task name">
+                <a href="#" class="add">add task</a>
+            </div>
+            <ul class="list-tasks"></ul>
+        </div>
+    </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
